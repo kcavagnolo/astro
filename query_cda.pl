@@ -10,10 +10,10 @@ no warnings('once');
 # usage:
 # perl query_cda.pl <my-one-column-list-of-obsids_file>
 
-$dest     = '/mnt/GIDEON/';
+$dest     = $ENV{'HOME'}."/misc/astro/data/";
 $out      = 'crap';
 $get_data = 'yes';
-$ftpdat   = $ENV{'HOME'}."/research/redux/redux_info/cdaftp.dat";
+$ftpdat   = $ENV{'HOME'}."/misc/astro/cdaftp.dat";
 $get_nh   = 'no';
 $get_z    = 'no';
 $get_tx   = 'no';
@@ -43,7 +43,7 @@ $baxadd   = 'http://bax.ast.obs-mip.fr/servlets/omp.servlet.ClusterQueryByName?n
 # check the number of arguments given
 die "## ERROR: Wrong number of command line arguments.\n" if (@ARGV != 1);
 die "## ERROR: $out exists! Will not clobber file.\n" if (-e $out);
-die "## ERROR: CIAO is not loaded, type 'ciao' at the command line.\n" unless ($ENV{'ASCDS_BIN'});
+#die "## ERROR: CIAO is not loaded, type 'ciao' at the command line.\n" unless ($ENV{'ASCDS_BIN'});
 use Cwd;
 use FindBin qw($Bin);
 

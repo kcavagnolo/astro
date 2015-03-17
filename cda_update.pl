@@ -35,10 +35,9 @@
 #######################
 #######################
 
-@datadir  = ("/mnt/GIDEON");                  # the location of your chandra data
-$dest     = "/mnt/GIDEON/accept/";            # where to put the HTML output file
-$ignore   = "$ENV{'HOME'}/research/redux/redux_info/cda_ignore"; # a file containing obsids to ignore
-#$ignore   = "";
+@datadir  = ("$ENV{'HOME'}/misc/astro/data");                  # the location of your chandra data
+$dest     = "$ENV{'HOME'}/misc/astro/web";            # where to put the HTML output file
+$ignore   = "$ENV{'HOME'}/misc/astro/cda_ignore"; # a file containing obsids to ignore
 $getall   = "no";                            # this queries the ENTIRE cda
 @instr    = ('ACIS-I','ACIS-S');             # instruments to check for
 @grating  = ('NONE');                        # include grating data?
