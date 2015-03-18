@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/tr/html4/loose.dtd">
+<html>
+<head>
+<title>Upcoming CDA archived observations</title>
+
+<meta name="AUTHOR" content="Kenneth W. Cavagnolo">
+<meta name="KEYWORDS" content="chandra x-ray galaxy cluster cavagnolo entropy michigan state university cosmology astrophysics astronomy">
+<meta name="ROBOTS" content="ALL,INDEX,FOLLOW">
+<meta name="DESCRIPTION" content="ACCEPT: Archive of Chandra Cluster Entropy Profile Tables">
+<link rel="alternate" type="application/rss+xml" title="RSS Feed for ACCEPT" href="http://www.pa.msu.edu/astro/MC2/accept/rss.xml">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="CONTENT-LANGUAGE" content="en-US">
+<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+<style type="text/css">
+  body,tb   {text-decoration: none;      color: #000000; font-family: sans-serif; font-size: small; background:#999999}
+  a:link    {text-decoration: none;      color: #FFFFFF;}
+  a:visited {text-decoration: none;      color: #FFFFFF;}
+  a:hover   {text-decoration: underline; color: #00CCFF;}
+  a:active  {text-decoration: none;      color: #FFFF00;}
+</style>
+</head>
+<body>
+
+<p><b># This list last updated: 2015-03-17 10:48:13 AM
+
+<br># Upcoming release of ObsIDs:</b><br>
+<table border cellpadding=0 cellspacing=0>
+<tr bgcolor="#000000">
+<th align=left><font color="#FFFFFF"># Target</font></th>
+<th align=center><font color="#FFFFFF">Obsid</font></th>
+<th align=center><font color="#FFFFFF">Exp</font></th>
+<th align=center><font color="#FFFFFF">ArcDate</font></th>
+<th align=center><font color="#FFFFFF">PI</font></th>
+<th align=center><font color="#FFFFFF">Category</font></th>
+</tr>
+</table>
+</body>
+</html>
