@@ -1,0 +1,1 @@
+The Chandra Observations Reduction Pipeline (CORP) was written as a tutorial for the first-time analyzer of Chandra data (e.g. the “you” role in the corp_doc.pdf reference text). “When your CIAO-Fu is good, only then will you utilize the stowed backgrounds of the CalDB."
